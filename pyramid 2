@@ -1,0 +1,9 @@
+ght = ARGV[0].to_i
+output = ""
+height.times do |i|
+  i += 1
+  output << " " * (height -= 1)
+  output << "*" * (i * 2)
+  output << "\n"
+end
+puts output
